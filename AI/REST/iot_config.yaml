@@ -1,0 +1,24 @@
+rooms:
+  livingroom:
+    devices:
+      sensor:
+        type: climate
+        url: http://192.168.0.88/sensor
+        methods:
+          GET:
+            temperature: /temperature
+            humidity: /humidity
+            all: /
+
+  bedroom:
+    devices:
+      lamp:
+        type: relay
+        url: http://192.168.0.80/relay
+        methods:
+          GET: /state
+          POST:
+            on:
+              state: "on"
+            off:
+              state: "off"
