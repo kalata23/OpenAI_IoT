@@ -1,0 +1,16 @@
+rooms:
+  - name: "bedroom"
+    sensors:
+      - type: "temperature_humidity"
+        ip: "192.168.1.100"
+        endpoints:
+          all: "/"
+          temperature: "/temperature"
+          humidity: "/humidity"
+  - name: "livingroom"
+    devices:
+      - type: "relay"
+        ip: "192.168.1.102"
+        endpoints:
+          state: "/state"
+          control: "/relay"
