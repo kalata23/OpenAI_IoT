@@ -1,0 +1,4 @@
+You need to install these libraries in Arduino in order to compile the project:
+
+1. Adafruit Unified Sensor
+2. DHT sensor library by Adafruit

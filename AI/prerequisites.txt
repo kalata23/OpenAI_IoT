@@ -1,0 +1,9 @@
+In order to run the script(s) in this folder you must install:
+
+1. Python "pip" module for installing required python libraries
+2. Following python modules:
+openai whisper gTTS paho-mqtt speech_recognition sounddevice scipy playsound python-dotenv pywin32 PyYAML pydub audioop-lts
+
+
+ffmpeg:
+How to install it -> https://phoenixnap.com/kb/ffmpeg-windows 
